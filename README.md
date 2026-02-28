@@ -1,7 +1,7 @@
 #     Computational-Fluid-Simulation
 
 
-## Fluid Simulation using SPH
+## Fluid Simulation using SPH in Unity
 
 This project implements a real-time fluid simulation environment based on the Smoothed Particle Hydrodynamics (SPH) method.
 
