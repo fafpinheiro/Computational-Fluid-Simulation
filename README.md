@@ -16,7 +16,9 @@ The main goal was not visual realism, but to achieve:
 - Numerical stability
 
 This makes the project focused on simulation quality and efficiency, rather than graphics.
+
 ---
+
 ## Approach
 
 The simulation follows a Lagrangian particle-based model, where fluid is represented as a system of interacting particles governed by SPH equations.
@@ -35,7 +37,9 @@ Limits neighborhood evaluation cost while preserving statistical correctness.
 
 Spatial Hash Grid (Hybrid SPH)
 Accelerates neighbor search, significantly reducing simulation complexity.
+
 ---
+
 ## Outcome
 
 The result is a modular and performant CFD-oriented simulation system capable of reproducing realistic fluid behavior under different interaction scenarios, including obstacle collision and dynamic flow conditions.
