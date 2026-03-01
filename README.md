@@ -25,13 +25,13 @@ The simulation follows a Lagrangian particle-based model, where fluid is represe
 
 A baseline implementation (“Default Method”) was used as the starting point and then improved through several optimization strategies.
 
-##Implemented Optimizations
+## Implemented Optimizations
 
 To improve computational efficiency while maintaining accuracy, the following techniques were developed:
 
  - Force Symmetry: Reduces redundant calculations by enforcing physical reciprocity between particle interactions.
 
- -Monte Carlo Sampling: Limits neighborhood evaluation cost while preserving statistical correctness.
+ - Monte Carlo Sampling: Limits neighborhood evaluation cost while preserving statistical correctness.
 
  - Spatial Hash Grid (Hybrid SPH): Accelerates neighbor search, significantly reducing simulation complexity.
 
