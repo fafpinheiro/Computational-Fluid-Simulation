@@ -29,14 +29,11 @@ A baseline implementation (“Default Method”) was used as the starting point 
 
 To improve computational efficiency while maintaining accuracy, the following techniques were developed:
 
-- Force Symmetry
-Reduces redundant calculations by enforcing physical reciprocity between particle interactions.
+ - Force Symmetry: Reduces redundant calculations by enforcing physical reciprocity between particle interactions.
 
- -Monte Carlo Sampling
-Limits neighborhood evaluation cost while preserving statistical correctness.
+ -Monte Carlo Sampling: Limits neighborhood evaluation cost while preserving statistical correctness.
 
-- Spatial Hash Grid (Hybrid SPH)
-Accelerates neighbor search, significantly reducing simulation complexity.
+ - Spatial Hash Grid (Hybrid SPH): Accelerates neighbor search, significantly reducing simulation complexity.
 
 ---
 
